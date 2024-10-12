@@ -1,0 +1,276 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0px;
+    padding: 0px;
+}
+#Home{
+    width: 100%;
+    height: 660px;
+    background-image: url(./img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#menu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+#Home h2
+{
+    margin-top: 200px;
+}
+#Home h2,p
+{
+    text-align: center;
+}
+.sidenav
+{
+    background-color: #414658;
+}
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#content h2
+{
+    font-size: 60px;
+}
+/* ------------------------------- */
+#singer{
+    margin: 100px auto;
+    width: 50%;
+}
+#singer h3{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+#singer div{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+#singer .one{
+    display:block;
+}
+.timeing{
+    background-image: url(./img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: auto;
+    height: 330px;
+    position: relative;
+}
+.row{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.square1 h4{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 100px;
+    left: 135PX;
+    padding: 60px 115px;
+    border: 2px solid white;
+}
+.square2 H4{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 100px;
+    left: 450PX;
+    padding: 60px 115px;
+    border: 2px solid white;
+}
+.square3{
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 775PX;
+    top: 100px;
+    padding: 60px 115px;
+    border: 2px solid white;
+}
+.square4{
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 1100PX;
+    top: 100px;
+    padding: 60px 115px;
+    border: 2px solid white;
+}
+.info{
+    height: 100vh;
+    position: relative;
+    margin-top: 200px;
+    overflow-x: auto;
+}
+.Join_Us h2{
+   position: absolute;
+   left: 120px;
+   font-weight: bold;
+   font-size: 38px;
+   text-transform: uppercase;
+   color: #444;
+}
+.Join_Us p{
+    position: absolute;
+    color: #777;
+    font-weight: 300;
+    font-size: 18px;
+    top: 70px;
+    left: 550px;
+}
+.CONTACT_INFO{
+    position: absolute;
+    width: 50%;
+    top: 110px;
+}
+.CONTACT_INFO h3{
+    margin-left: 120px;
+   font-weight: 900 ;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #444;
+}
+.CONTACT_INFO p{
+    position: absolute;
+    left: 110px;
+    color: #777;
+    text-align: center;
+    top: 32px;
+    width: 78%;
+    font-size: 17px;
+    line-height: 25px;
+}
+.CONTACT_INFO h4{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    text-align: center;
+    color: #777;
+     text-transform: none;} 
+
+.CONTACT_INFO h5{
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    text-align: center;
+    color: #D62E33 !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+.CONTACT_INFO h6{
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+}
+.icons{
+    position: absolute;
+    top:500px ;
+    left: 150px;
+    display: flex;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5{
+    margin-left: 13px;
+    border: 1px solid #777;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color:  #777;
+}
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover,.icon5:hover{
+    color: white;
+    background-color: #D62E33;
+}
+.info-righet{
+    position: absolute;
+    top: 120px;
+    left: 800px;
+}
+.info-righet input{
+    width: 600px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #d1d1d1;
+}
+.info-righet textarea{
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #d1d1d1;
+}
+.info-righet p span{
+    color: red;
+    font-size: 23px;
+}
+.info-righet p{
+    font-size: 18px;
+}
+.info-righet button {
+    margin-top: 20px;
+    font-size: 18px;
+    border: 1px solid #D62E33;
+    background-color: #D62E33;
+    color: #fff;
+    padding: 12px 25px;
+    text-transform: uppercase;
+}  
+
